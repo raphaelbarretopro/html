@@ -1,0 +1,12 @@
+{
+    "name": "Projeto-Workshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "start": "live-server"
+    },
+    "author": "Raphael Barreto",
+    "license": "MIT"
+  }
+  
