@@ -41,7 +41,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GREEN_FIELD_03EA7801E }}
           action: "upload"
-          app_location: "/" # ou "public", dependendo de onde estão os arquivos .html
+          app_location: "/" # Caminho para seus arquivos (ex: "/" ou "public")
           github_id_token: ${{ steps.idtoken.outputs.result }}
 
   close_pull_request_job:
